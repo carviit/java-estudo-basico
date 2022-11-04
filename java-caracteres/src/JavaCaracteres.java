@@ -9,10 +9,14 @@ public class JavaCaracteres {
 
         System.out.println(letra);
 
-        String frase = "Carlos Vitor Ferreira de Moura";
+        String frase = "Carlos Vitor Ferreira de Moura ";
 
         System.out.println(frase);
 
+        frase = frase + 2002;
 
+        System.out.println(frase);
+
+       
     }   
 }
