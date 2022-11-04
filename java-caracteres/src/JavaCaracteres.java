@@ -1,5 +1,18 @@
 public class JavaCaracteres {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+        
+        char letra = 66;
+
+        System.out.println(letra);
+
+        letra = (char)(letra + 1);
+
+        System.out.println(letra);
+
+        String frase = "Carlos Vitor Ferreira de Moura";
+
+        System.out.println(frase);
+
+
+    }   
 }
