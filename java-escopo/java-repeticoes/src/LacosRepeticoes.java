@@ -11,11 +11,24 @@ public class LacosRepeticoes {
             numero++;
         }
 
-        for(int i = 0;i<=50;i+=5){
+        for(int i = 1;i<10;i++){
 
-            System.out.println(i);
+            for(int j = 0;j<10;j++){
 
+                System.out.print(i  * j);
+                System.out.print(" ");
+
+            }
+
+            System.out.println();
         }
-
     }
+
+
+
+
+
+
+
+    
 }
